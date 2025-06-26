@@ -62,11 +62,19 @@ WSGI_APPLICATION = "movie_recommendation.wsgi.application"
 
 
 # Database
-# https://docs.djangoproject.com/en/4.1/ref/settings/#databases
+# https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASES = {
-    'default': dj_database_url.config(default=os.environ.get('postgresql://movie_recommendation_system_user:FPvuQpaZhUQ7e6FYLQzzfTLm4ullp0td@dpg-d1eqo5gdl3ps73c0g2b0-a.oregon-postgres.render.com/movie_recommendation_system'))
-}
+if os.environ.get('DATABASE_URL'):
+    DATABASES = {
+        'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 
 # Password validation

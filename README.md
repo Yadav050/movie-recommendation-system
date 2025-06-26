@@ -18,10 +18,10 @@ A modern Django-based Movie Recommendation System with a beautiful UI, Vanta.js 
 
 <!-- Additional screenshots -->
 <p align="center">
-  <img src="readme_images/ss1.png" alt="Screenshot 1" width="350"/>
-  <img src="readme_images/ss2.png" alt="Screenshot 2" width="350"/>
-  <img src="readme_images/ss3.png" alt="Screenshot 3" width="350"/>
-  <img src="readme_images/ss4.png" alt="Screenshot 4" width="350"/>
+  <img src="readme_images/Home_page.png" alt="Screenshot 1" width="350"/>
+  <img src="readme_images/search_suggestion.png" alt="Screenshot 2" width="350"/>
+  <img src="readme_images/menu_bar.png" alt="Screenshot 3" width="350"/>
+  <img src="readme_images/Search_result.png" alt="Screenshot 4" width="350"/>
 </p>
 
 ---
@@ -69,6 +69,3 @@ A modern Django-based Movie Recommendation System with a beautiful UI, Vanta.js 
 - [jQuery UI](https://jqueryui.com/autocomplete/) for autocomplete
 
 ---
-
-## License
-MIT 

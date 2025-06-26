@@ -20,8 +20,8 @@ A modern Django-based Movie Recommendation System with a beautiful UI, Vanta.js 
 <p align="center">
   <img src="readme_images/Home_page.png" alt="Screenshot 1" width="350"/>
   <img src="readme_images/search_suggestion.png" alt="Screenshot 2" width="350"/>
-  <img src="readme_images/menu_bar" alt="Screenshot 3" width="350"/>
-  <img src="readme_images/Search_result" alt="Screenshot 4" width="350"/>
+  <img src="readme_images/menu_bar.png" alt="Screenshot 3" width="350"/>
+  <img src="readme_images/Search_result.png" alt="Screenshot 4" width="350"/>
 </p>
 
 ---

@@ -25,7 +25,11 @@ A modern Django-based Movie Recommendation System with a beautiful UI, Vanta.js 
 </p>
 
 ---
+## 🚀 Live Demo
 
+[https://movie-recommendation-system-2-xjp0.onrender.com]
+
+---
 ## Getting Started
 
 ### Prerequisites
